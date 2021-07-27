@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<log xmlns="http://www.xes-standard.org/" xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Semantic" prefix="semantic" uri="http://www.xes-standard.org/semantic.xesext" />
+	<global scope="trace">
+		<string key="concept:name" value="__INVALID__" />
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="__INVALID__" />
+		<string key="lifecycle:transition" value="complete" />
+	</global>
+	<classifier name="MXML Legacy Classifier" keys="concept:name lifecycle:transition" />
+	<classifier name="Event Name" keys="concept:name" />
+	<classifier name="Resource" keys="org:resource" />
+	<string key="concept:name" value="trace_2_3_0.xes" />
+	<string key="lifecycle:model" value="standard" />
+ 		<trace>
+			<string key="concept:name" value="0"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T03:30:35.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T03:33:36.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T03:45:36.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T03:47:44.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T03:50:20.000+08:00"/>
+				<string key="concept:name" value="f"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T04:05:14.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T04:16:54.000+08:00"/>
+				<string key="concept:name" value="i"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T04:24:14.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T04:25:16.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T04:42:28.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T04:44:42.000+08:00"/>
+				<string key="concept:name" value="y"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-03T05:04:20.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="1"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T07:19:57.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T07:25:05.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T07:27:20.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T07:44:27.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T07:48:47.000+08:00"/>
+				<string key="concept:name" value="e"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T08:04:15.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T08:23:48.000+08:00"/>
+				<string key="concept:name" value="i"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T08:31:11.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T08:51:04.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T09:09:17.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T09:28:48.000+08:00"/>
+				<string key="concept:name" value="o"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T09:30:34.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T09:43:14.000+08:00"/>
+				<string key="concept:name" value="q"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T09:56:34.000+08:00"/>
+				<string key="concept:name" value="s"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T09:57:23.000+08:00"/>
+				<string key="concept:name" value="t"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T10:04:12.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T10:07:24.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="2"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T07:10:07.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T07:14:46.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T07:28:19.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T07:37:11.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T07:55:47.000+08:00"/>
+				<string key="concept:name" value="e"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T08:05:00.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T08:19:34.000+08:00"/>
+				<string key="concept:name" value="j"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T08:35:42.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T08:48:05.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T08:55:14.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T08:57:24.000+08:00"/>
+				<string key="concept:name" value="o"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T09:08:35.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T09:22:02.000+08:00"/>
+				<string key="concept:name" value="r"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T09:26:41.000+08:00"/>
+				<string key="concept:name" value="u"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T09:35:22.000+08:00"/>
+				<string key="concept:name" value="w"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T09:45:23.000+08:00"/>
+				<string key="concept:name" value="x"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T09:59:03.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T10:10:46.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="3"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T10:05:07.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T10:14:10.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T10:25:31.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T10:41:06.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T10:44:09.000+08:00"/>
+				<string key="concept:name" value="f"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T10:55:23.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T10:56:22.000+08:00"/>
+				<string key="concept:name" value="j"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T11:09:17.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T11:26:14.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T11:33:53.000+08:00"/>
+				<string key="concept:name" value="n"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T11:44:09.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T11:58:26.000+08:00"/>
+				<string key="concept:name" value="r"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T12:16:24.000+08:00"/>
+				<string key="concept:name" value="u"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T12:28:45.000+08:00"/>
+				<string key="concept:name" value="w"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T12:32:33.000+08:00"/>
+				<string key="concept:name" value="x"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T12:50:37.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-02T13:01:06.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="4"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T11:45:19.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T11:51:47.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T12:09:19.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T12:17:02.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T12:21:54.000+08:00"/>
+				<string key="concept:name" value="e"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T12:41:31.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T12:54:40.000+08:00"/>
+				<string key="concept:name" value="j"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T13:05:23.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T13:13:20.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T13:18:41.000+08:00"/>
+				<string key="concept:name" value="n"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T13:38:09.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T13:56:30.000+08:00"/>
+				<string key="concept:name" value="r"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T14:14:52.000+08:00"/>
+				<string key="concept:name" value="t"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T14:15:54.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-10T14:28:44.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="5"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T15:56:43.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T16:09:17.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T16:16:58.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T16:34:59.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T16:53:22.000+08:00"/>
+				<string key="concept:name" value="g"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T17:00:13.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T17:03:25.000+08:00"/>
+				<string key="concept:name" value="i"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T17:12:03.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T17:12:45.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T17:26:57.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T17:43:43.000+08:00"/>
+				<string key="concept:name" value="y"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-07T17:47:32.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="6"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T16:08:40.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T16:25:13.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T16:33:16.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T16:42:10.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T16:47:08.000+08:00"/>
+				<string key="concept:name" value="f"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T17:05:57.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T17:25:27.000+08:00"/>
+				<string key="concept:name" value="j"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T17:25:57.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T17:43:51.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T17:59:38.000+08:00"/>
+				<string key="concept:name" value="n"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T18:00:39.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T18:06:32.000+08:00"/>
+				<string key="concept:name" value="q"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T18:25:42.000+08:00"/>
+				<string key="concept:name" value="s"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T18:26:13.000+08:00"/>
+				<string key="concept:name" value="t"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T18:27:04.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T18:46:58.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="7"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T08:02:02.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T08:07:00.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T08:09:21.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T08:19:11.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T08:36:38.000+08:00"/>
+				<string key="concept:name" value="e"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T08:50:58.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T09:00:10.000+08:00"/>
+				<string key="concept:name" value="j"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T09:08:12.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T09:18:55.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T09:25:50.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T09:34:36.000+08:00"/>
+				<string key="concept:name" value="o"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T09:39:59.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T09:55:11.000+08:00"/>
+				<string key="concept:name" value="q"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T10:10:07.000+08:00"/>
+				<string key="concept:name" value="s"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T10:28:32.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-17T10:41:08.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="8"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:04:27.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:09:32.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:13:35.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:14:06.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:18:15.000+08:00"/>
+				<string key="concept:name" value="g"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:23:44.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:29:30.000+08:00"/>
+				<string key="concept:name" value="j"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:46:46.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T08:57:56.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T09:17:38.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T09:30:07.000+08:00"/>
+				<string key="concept:name" value="o"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T09:31:22.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T09:38:38.000+08:00"/>
+				<string key="concept:name" value="r"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T09:43:45.000+08:00"/>
+				<string key="concept:name" value="t"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T09:54:50.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-14T10:02:59.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="9"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T03:01:18.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T03:12:06.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T03:27:25.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T03:37:22.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T03:47:03.000+08:00"/>
+				<string key="concept:name" value="g"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T04:00:28.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T04:05:29.000+08:00"/>
+				<string key="concept:name" value="j"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T04:23:50.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T04:26:21.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T04:30:06.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T04:41:21.000+08:00"/>
+				<string key="concept:name" value="o"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T04:53:13.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T04:55:45.000+08:00"/>
+				<string key="concept:name" value="q"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T05:01:17.000+08:00"/>
+				<string key="concept:name" value="s"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T05:12:21.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-05T05:17:58.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="10"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T02:18:30.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T02:35:39.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T02:53:17.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T02:58:58.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T03:10:21.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T03:23:21.000+08:00"/>
+				<string key="concept:name" value="e"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T03:38:03.000+08:00"/>
+				<string key="concept:name" value="j"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T03:42:58.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T03:44:35.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T03:46:41.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T04:05:28.000+08:00"/>
+				<string key="concept:name" value="o"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T04:13:48.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T04:13:51.000+08:00"/>
+				<string key="concept:name" value="r"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T04:33:37.000+08:00"/>
+				<string key="concept:name" value="w"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T04:49:30.000+08:00"/>
+				<string key="concept:name" value="x"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T05:01:42.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-12T05:16:03.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="11"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T05:09:30.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T05:23:29.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T05:28:54.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T05:43:06.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T05:55:49.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T06:06:00.000+08:00"/>
+				<string key="concept:name" value="e"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T06:07:26.000+08:00"/>
+				<string key="concept:name" value="i"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T06:14:50.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T06:22:18.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T06:35:52.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T06:52:52.000+08:00"/>
+				<string key="concept:name" value="o"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T07:02:18.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T07:03:11.000+08:00"/>
+				<string key="concept:name" value="w"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T07:14:50.000+08:00"/>
+				<string key="concept:name" value="r"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T07:26:34.000+08:00"/>
+				<string key="concept:name" value="x"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T07:37:10.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-11T07:56:03.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+		<trace>
+			<string key="concept:name" value="12"/>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T15:51:08.000+08:00"/>
+				<string key="concept:name" value="a"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T16:02:20.000+08:00"/>
+				<string key="concept:name" value="b"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T16:21:45.000+08:00"/>
+				<string key="concept:name" value="c"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T16:31:05.000+08:00"/>
+				<string key="concept:name" value="d"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T16:38:24.000+08:00"/>
+				<string key="concept:name" value="e"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T16:41:05.000+08:00"/>
+				<string key="concept:name" value="h"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T16:41:39.000+08:00"/>
+				<string key="concept:name" value="i"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T16:47:20.000+08:00"/>
+				<string key="concept:name" value="k"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T17:00:35.000+08:00"/>
+				<string key="concept:name" value="l"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T17:05:58.000+08:00"/>
+				<string key="concept:name" value="m"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T17:21:53.000+08:00"/>
+				<string key="concept:name" value="o"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T17:35:47.000+08:00"/>
+				<string key="concept:name" value="p"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T17:38:04.000+08:00"/>
+				<string key="concept:name" value="t"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T17:38:24.000+08:00"/>
+				<string key="concept:name" value="v"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+			<event>
+				<string key="org:resource" value="Call Centre Agent"/>
+				<date key="time:timestamp" value="2020-05-06T17:52:24.000+08:00"/>
+				<string key="concept:name" value="z"/>
+				<string key="lifecycle:transition" value="complete"/>
+			</event>
+		</trace>
+</log>
